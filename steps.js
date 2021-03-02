@@ -1049,3 +1049,15 @@ return (
         </div>
     </div>
 )
+
+/* deploy application */
+/* github */
+/* create new repository */
+/* add all my files to repository */
+git add .
+/* commit with message */
+git commit -m "first commit"
+/* give address where git will push actual repository */
+git remote add origin https://github.com/MateuszWorek/react-phone-store.git
+/* push origin to repository */
+git push -u origin main
